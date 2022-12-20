@@ -12,7 +12,7 @@
 ## Product Guides
 
 * [🖼 Image Annotation Tool](product-guides/image-annotation-tool.md)
-* [📎 Understanding Projects](product-guides/understanding-projects.md)
+* [🛣 LiDAR Annotation Tool](product-guides/lidar-annotation-tool.md)
 
 ## Fundamentals
 

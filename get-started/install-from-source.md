@@ -31,7 +31,7 @@ cd xtreme1
 
 The docker-compose.yml default will pull application images from Docker Hub, if you want to build images from source code, you can comment on the service's image line and un-comment build line.
 
-```yaml
+```basic
 services:
   backend:
     # image: basicai/xtreme1-backend
