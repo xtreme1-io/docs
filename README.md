@@ -93,12 +93,12 @@ Subscribe to the latest video tutorials on our [YouTube](https://www.youtube.com
 
 ## Quick links
 
-{% content-ref url="get-started/install-with-docker.md" %}
-[install-with-docker.md](get-started/install-with-docker.md)
+{% content-ref url="overview/what-we-do.md" %}
+[what-we-do.md](overview/what-we-do.md)
 {% endcontent-ref %}
 
-{% content-ref url="get-started/our-features.md" %}
-[our-features.md](get-started/our-features.md)
+{% content-ref url="overview/our-features.md" %}
+[our-features.md](overview/our-features.md)
 {% endcontent-ref %}
 
 ## Get Started
