@@ -6,7 +6,7 @@ You have just learned the **basics of Xtreme1** and now it is the time to instal
 
 You can install Xtreme1 on a Linux, Windows, or MacOSX machine.​​
 
-**Prerequisites details and built-in models installation is explained here**
+****[**Prerequisites details and built-in models installation is explained here**](../overview/what-we-do.md#operating-system-requirements)****
 
 ### Download package <a href="#download-package" id="download-package"></a>
 

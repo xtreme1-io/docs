@@ -5,7 +5,8 @@
 ## Get Started
 
 * [⚡ Quick Start](get-started/quick-start.md)
-* [💡 Install with Docker](overview/what-we-do.md)
+* [🛅 Install with Docker](overview/what-we-do.md)
+* [🛠 Install from Source](get-started/install-from-source.md)
 * [✨ Our Features](overview/our-features.md)
 
 ## Product Guides

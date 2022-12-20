@@ -1,4 +1,4 @@
-# 💡 Install with Docker
+# 🛅 Install with Docker
 
 Xtreme1 can be installed via Docker.&#x20;
 
@@ -65,6 +65,8 @@ docker compose up
 Visit [http://localhost:8190](http://localhost:8190) in the browser (Google Chrome is recommended) to try out Xtreme1!
 
 You can replace `localhost` with IP address if you want to access from another machine.
+
+<figure><img src="../.gitbook/assets/dockersc.png" alt=""><figcaption><p>Screenshot of Docker Desktop</p></figcaption></figure>
 
 #### Docker Compose advanced commands
 
