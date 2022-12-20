@@ -1,70 +1,45 @@
----
-sidebar_position: 1
----
+# 👋 Welcome to A Product
 
-# Introduction
+{% hint style="info" %}
+**GitBook tip:** your product docs aren't just a reference of all your features! use them to encourage folks to perform certain actions and discover the value in your product.
+{% endhint %}
 
+## Overview
 
-Xtreme1 is the world's first open-source platform for **multisensory training data**.
+Here are a couple of example overviews from products with really great docs:
 
-Xtreme1 provides deep insight into data annotation, data curation, and ontology management to solve 2D image and 3D point cloud dataset ML challenges. 
+> Loom is a video messaging tool that helps you get your message across through instantly shareable videos.
+>
+> With Loom, you can record your camera, microphone, and desktop simultaneously. Your video is then instantly available to share through Loom's patented technology.
+>
+> — From the [Loom Docs](https://support.loom.com/hc/en-us/articles/360002158057-What-is-Loom-)
 
-The built-in AI-assisted tools take your annotation efforts to the next level of efficiency for your **2D/3D Object Detection**, **3D Instance Segmentation**, and **LiDAR-Camera Fusion projects**.
+> The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more.
+>
+> — From the [Mailchimp Marketing API docs](https://mailchimp.com/developer/marketing/docs/fundamentals/)
 
+## Quick links
 
-## Getting Started
+{% content-ref url="overview/what-we-do.md" %}
+[what-we-do.md](overview/what-we-do.md)
+{% endcontent-ref %}
 
+{% content-ref url="overview/our-features.md" %}
+[our-features.md](overview/our-features.md)
+{% endcontent-ref %}
 
-You can install Xtreme1 on a Linux, Windows, or MacOSX machine.
+## Get Started
 
-**[Prerequisites details and built-in models installation is explained here](./Docker-image)**
+We've put together some helpful guides for you to get setup with our product quickly and easily.
 
-Get started from the **[Quick Start](./getting-started/Quick-start)**:
-```bash
-wget https://github.com/basicai/xtreme1/releases/download/v0.5.2/xtreme1-v0.5.2.zip
-unzip -d xtreme1-v0.5.2 xtreme1-v0.5.2.zip
+{% content-ref url="fundamentals/getting-set-up/" %}
+[getting-set-up](fundamentals/getting-set-up/)
+{% endcontent-ref %}
 
-docker compose up
-```
+{% content-ref url="fundamentals/getting-set-up/setting-permissions.md" %}
+[setting-permissions.md](fundamentals/getting-set-up/setting-permissions.md)
+{% endcontent-ref %}
 
-And Give us a :star: on [GitHub repo](https://github.com/basicai/xtreme1).
-
-### Main features
- 
-# Key features #
-
-Image Bounding-box Annotation - [YOLOR](https://github.com/WongKinYiu/yolor) |  Image Segmentation Annotation - [RITM](https://github.com/saic-vul/ritm_interactive_segmentation)
-:-------------------------:|:-------------------------:
-![](./getting-started/img/image-bbox-model.gif)  |  ![](./getting-started/img/2d-seg-model.gif)
-
- :one: Supports data labeling for images :camera:, 3D LiDAR and 2D/3D Sensor Fusion datasets :oncoming_automobile: :vertical_traffic_light: :no_pedestrians:
- 
- :two: Built-in pre-labeling and interactive models support 2D/3D object detection, segmentation and classification :rocket:
- 
- :three: Configurable Ontology Center for general classes (with hierarchies) and attributes for use in your model training :bookmark:
-
- :four: Data management and quality monitoring :books:
- 
- :five: Find and fix labeling errors :microscope:
-
- :six: Results visualization to help you to evaluate your model :chart_with_upwards_trend:
-
-
-3D Point Cloud Cuboid Annotation - [OpenPCDet](https://github.com/open-mmlab/OpenPCDet) |  2D & 3D Fusion Object Tracking Annotation - [AB3DMOT](https://github.com/xinshuoweng/AB3DMOT)
-:-------------------------:|:-------------------------:
-![](./getting-started/img/3d-annotation.gif)  |  ![](./getting-started/img/3d-track-model.gif)
-
-
-## Support
-
-Join our community to chat with other members.
-
-Slack: [https://xtreme1io.slack.com](https://join.slack.com/t/xtreme1group/shared_invite/zt-1jhk36uzr-NpdpYXeQAEHN6rYJy5_6pg)
-
-Issue: https://github.com/basicai/xtreme1/issues
-
-Github: https://github.com/basicai/xtreme1
-
-Twitter: https://twitter.com/xxxxx
-
-Subscribe to the latest video tutorials on our [YouTube](https://www.youtube.com/@xtreme1ai) channel
+{% content-ref url="fundamentals/getting-set-up/inviting-members.md" %}
+[inviting-members.md](fundamentals/getting-set-up/inviting-members.md)
+{% endcontent-ref %}
