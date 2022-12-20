@@ -1,11 +1,11 @@
 # Table of contents
 
-* [👋 Welcome to A Product](README.md)
+* [👋 Welcome to Xtreme1](README.md)
 
-## Overview
+## Get Started
 
-* [💡 What we do](overview/what-we-do.md)
-* [✨ Our Features](overview/our-features.md)
+* [💡 Install with Docker](get-started/install-with-docker.md)
+* [✨ Our Features](get-started/our-features.md)
 
 ## Product Guides
 
