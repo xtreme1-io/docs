@@ -41,6 +41,8 @@ Select the interactive model (for segmentation) and create a bounding box to the
 
 Click Info icon to view data information. Data ID, data name, dimension and file size can be found.
 
+<figure><img src="../.gitbook/assets/imageinfo.png" alt=""><figcaption></figcaption></figure>
+
 ### Settings
 
 In Settings, some parameters can help you on the annotation process by adjusting values or switching options from brightness, contrast, opacity, auxiliary lines or display modes.
@@ -49,10 +51,11 @@ In Settings, some parameters can help you on the annotation process by adjusting
 
 |               Key               |     Description    |
 | :-----------------------------: | :----------------: |
-|             **Data**            |    Shortcut key    |
+|          **About Data**         |  **Shortcut key**  |
 |             Previous            |       Page Up      |
 |               Next              |      Page Down     |
-|           **Instance**          |    Shortcut key    |
+|                                 |                    |
+|        **About Instance**       |  **Shortcut key**  |
 |               Save              |     Ctrl/⌘ + S     |
 |              Cancel             |         Esc        |
 |      Delete instance/ point     |       Delete       |
@@ -70,14 +73,16 @@ In Settings, some parameters can help you on the annotation process by adjusting
 |               Redo              | Ctrl/⌘ + Shift + Z |
 | Crop1 Do not crop the first one |          X         |
 |     Crop2 Crop the first one    |      Ctrl + X      |
-|             **Tool**            |    Shortcut key    |
+|                                 |                    |
+|          **About Tool**         |  **Shortcut key**  |
 |              Select             |          2         |
 |        Bounding box tool        |          3         |
 |           Polygon tool          |          4         |
 |          Polyline tool          |          5         |
 |            Smart Tool           |          7         |
 |         Interactive tool        |          8         |
-|            **Image**            |    Shortcut key    |
+|                                 |                    |
+|         **About Image**         |  **Shortcut key**  |
 |        Zoom in, Zoom Out        |        Wheel       |
 |               Drag              | Space + Left click |
 |          Cancel window          |         Esc        |
