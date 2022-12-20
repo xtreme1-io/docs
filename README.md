@@ -57,7 +57,7 @@ docker compose up
 It is now hosted in [LF AI & Data Foundation](https://lfaidata.foundation/) as a sandbox project.
 {% endhint %}
 
-<figure><img src=".gitbook/assets/lf_x1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/lf_x1.png" alt=""><figcaption><p>Xtreme1, the First Open-Source Labeling &#x26; Annotation and Visualization Project, is debuting at the Linux Foundation AI &#x26; DATA Global Landscape</p></figcaption></figure>
 
 ## Support
 
@@ -76,10 +76,6 @@ Twitter: [https://twitter.com/Xtreme1io](https://twitter.com/Xtreme1io)
 Subscribe to the latest video tutorials on our [YouTube](https://www.youtube.com/@xtreme1ai) channel
 
 
-
-## Xtreme1, the First Open-Source Labeling & Annotation and Visualization Project, is debuting at the Linux Foundation AI & DATA Global Landscape <a href="#0cec" id="0cec"></a>
-
-<figure><img src=".gitbook/assets/lf_x1.png" alt=""><figcaption><p>LF AI &#x26; Data Foundation Interactive Landscape</p></figcaption></figure>
 
 ## Quick links
 

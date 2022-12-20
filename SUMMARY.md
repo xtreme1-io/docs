@@ -11,7 +11,7 @@
 
 ## Product Guides
 
-* [📪 Making a post](product-guides/making-a-post.md)
+* [🖼 Image Annotation Tool](product-guides/image-annotation-tool.md)
 * [📎 Understanding Projects](product-guides/understanding-projects.md)
 
 ## Fundamentals
