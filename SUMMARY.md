@@ -13,6 +13,7 @@
 
 * [🖼 Image Annotation Tool](product-guides/image-annotation-tool.md)
 * [🛣 LiDAR Annotation Tool](product-guides/lidar-annotation-tool.md)
+* [🏷 Ontology](product-guides/ontology.md)
 
 ## Fundamentals
 
