@@ -4,7 +4,7 @@ description: >-
   parameter configuration
 ---
 
-# Coordinate System
+# 📸 Coordinate System
 
 The point cloud annotation tool mainly involves two coordinate systems:&#x20;
 
@@ -181,8 +181,3 @@ function createExternalMatrix(poses) {
 // internal parameters from intrinsics.json
 // { fx: 933.4667, fy: 934.6754, cx: 896.4692, cy: 507.3557 }
 ```
-
-
-
-
-
