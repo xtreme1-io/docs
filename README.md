@@ -75,7 +75,7 @@ Twitter: [https://twitter.com/Xtreme1io](https://twitter.com/Xtreme1io)
 
 Subscribe to the latest video tutorials on our [YouTube](https://www.youtube.com/@xtreme1ai) channel
 
-## Quick links
+## Quick Links
 
 {% content-ref url="overview/what-we-do.md" %}
 [what-we-do.md](overview/what-we-do.md)
