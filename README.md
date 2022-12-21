@@ -5,7 +5,7 @@ description: Open-source platform for multisensory training data.
 # Welcome to Xtreme1
 
 {% hint style="info" %}
-Find our repos at [https://github.com/xtreme1-io/xtreme1](https://github.com/xtreme1-io/xtreme1)****
+Find our GitHub repos at [https://github.com/xtreme1-io/xtreme1](https://github.com/xtreme1-io/xtreme1)****
 {% endhint %}
 
 ## Introduction
@@ -42,7 +42,7 @@ The built-in AI-assisted tools take your annotation efforts to the next level of
 
 You can install Xtreme1 on a Linux, Windows, or MacOSX machine.
 
-[**Prerequisites details and built-in models installation is explained here**](Docker-image/)**.**
+[**Prerequisites details and built-in models installation is explained here**](overview/what-we-do.md#prerequisites)**.**
 
 Get started from the [**Quick Start**](overview/what-we-do.md):
 

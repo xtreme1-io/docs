@@ -1,12 +1,12 @@
 # ⚡ Quick Start
 
-You have just learned the **basics of Xtreme1** and now it is the time to install it.Standard Docker image installation enables all major features of Xtreme1 and is the recommended installation for most users.
+You have just learned the **basics of Xtreme1** and now it is the time to install it. Standard Docker image installation enables all major features of Xtreme1 and is the recommended installation for the most users.
 
 ### System requirements <a href="#system-requirements" id="system-requirements"></a>
 
 You can install Xtreme1 on a Linux, Windows, or MacOSX machine.​​
 
-****[**Prerequisites details and built-in models installation is explained here**](../overview/what-we-do.md#operating-system-requirements)****
+****[**Prerequisites details and built-in models installation is explained here**](../overview/what-we-do.md#operating-system-requirements)
 
 ### Download package <a href="#download-package" id="download-package"></a>
 

@@ -1,6 +1,6 @@
 # 🛠 Install from Source
 
-If you want to build or extend the functionality, consider downloading the source code using Git and running Xtreme1 locally:
+If you want to build or extend the functionality, download the source code using Git and running Xtreme1 locally:
 
 ### Enable Docker BuildKit
 

@@ -2,11 +2,11 @@
 description: Image, LiDAR and 2D & 3D Fusion LiDAR datasets format requirement
 ---
 
-# Upload Dataset
+# ⛽ Upload Dataset
 
 ## Dataset Format
 
-Datasets can be uploaded from the _local drive_ and through _URLs_.
+Datasets can be uploaded from the `local drive` __ and through`URLs`.
 
 ### **Image**
 
@@ -92,6 +92,12 @@ LiDAR basic and 2D & 3D LiDAR Fusion support to upload dataset with pre-annotati
 All json files must be placed under the`result` folder.
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Dataset Folder Names</p></figcaption></figure>
+
+## Tutorial
+
+{% embed url="https://www.youtube.com/watch?v=l4I5DAPqKno" %}
+Tutorial Series: Upload Multisensory Data
+{% endembed %}
 
 ### **Dataset License**
 

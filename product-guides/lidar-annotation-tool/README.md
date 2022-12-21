@@ -74,7 +74,7 @@ Click **Setting** below data info to customize display effects of Image, Point c
 3. Objects：Switch to show tags on results;
 4. Utility：Switch to show distance measure and its radius in meter.
 
-## Shortcuts list
+## Shortcuts List
 
 |         Key        |                 Description                |
 | :----------------: | :----------------------------------------: |
@@ -101,3 +101,9 @@ Click **Setting** below data info to customize display effects of Image, Point c
 |          B         |       Filter Other Object in 2D View       |
 |          N         |         Show/Hide Distance Measure         |
 |          R         |           Open/Close Review Panel          |
+
+### Tutorials&#x20;
+
+{% embed url="https://www.youtube.com/watch?t=50s&v=4jo2FFVGJi0" %}
+Xtreme1 Tutorial Series Episode 2: Annotation of 2D & 3D Fusion Data
+{% endembed %}
