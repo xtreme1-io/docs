@@ -2,7 +2,7 @@
 description: Open-source platform for multisensory training data.
 ---
 
-# 👋 Welcome to Xtreme1
+# Welcome to Xtreme1
 
 {% hint style="info" %}
 Find our repos at [https://github.com/xtreme1-io/xtreme1](https://github.com/xtreme1-io/xtreme1)****
@@ -15,21 +15,6 @@ Xtreme1 is the world's first open-source platform for **multisensory training da
 Xtreme1 provides deep insight into data annotation, data curation, and ontology management to solve 2D image and 3D point cloud dataset ML challenges.
 
 The built-in AI-assisted tools take your annotation efforts to the next level of efficiency for your **2D/3D Object Detection**, **3D Instance Segmentation**, and **LiDAR-Camera Fusion projects.**
-
-## Getting Started
-
-You can install Xtreme1 on a Linux, Windows, or MacOSX machine.
-
-[**Prerequisites details and built-in models installation is explained here**](Docker-image/)**.**
-
-Get started from the [**Quick Start**](overview/what-we-do.md):
-
-```bash
-wget https://github.com/xtreme1-io/xtreme1/releases/download/v0.5.2/xtreme1-v0.5.2.zip
-unzip -d xtreme1-v0.5.2 xtreme1-v0.5.2.zip
-
-docker compose up
-```
 
 ## Key Features
 
@@ -53,13 +38,28 @@ docker compose up
 | :-------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------: |
 |                          ![](.gitbook/assets/3d-annotation.gif)                         |                            ![](.gitbook/assets/3d-track-model.gif)                            |
 
+## Getting Started
+
+You can install Xtreme1 on a Linux, Windows, or MacOSX machine.
+
+[**Prerequisites details and built-in models installation is explained here**](Docker-image/)**.**
+
+Get started from the [**Quick Start**](overview/what-we-do.md):
+
+```bash
+wget https://github.com/xtreme1-io/xtreme1/releases/download/v0.5.2/xtreme1-v0.5.2.zip
+unzip -d xtreme1-v0.5.2 xtreme1-v0.5.2.zip
+
+docker compose up
+```
+
 {% hint style="info" %}
-It is now hosted in [LF AI & Data Foundation](https://lfaidata.foundation/) as a sandbox project.
+Xtreme1 project is now hosted in [LF AI & Data Foundation](https://lfaidata.foundation/) as a sandbox project.
 {% endhint %}
 
 <figure><img src=".gitbook/assets/lf_x1.png" alt=""><figcaption><p>Xtreme1, the First Open-Source Labeling &#x26; Annotation and Visualization Project, is debuting at the Linux Foundation AI &#x26; DATA Global Landscape</p></figcaption></figure>
 
-## Support
+## Support and Community
 
 Join our community to chat with other members.
 
@@ -75,30 +75,16 @@ Twitter: [https://twitter.com/Xtreme1io](https://twitter.com/Xtreme1io)
 
 Subscribe to the latest video tutorials on our [YouTube](https://www.youtube.com/@xtreme1ai) channel
 
-
-
 ## Quick links
 
 {% content-ref url="overview/what-we-do.md" %}
 [what-we-do.md](overview/what-we-do.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="product-guides/lidar-annotation-tool/" %}
+[lidar-annotation-tool](product-guides/lidar-annotation-tool/)
 {% endcontent-ref %}
 
-## Get Started
+## Learn more
 
-We've put together some helpful guides for you to get setup with our product quickly and easily.
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+Visit the official website at [https://www.xtreme1.io/](https://www.xtreme1.io/)
