@@ -14,7 +14,7 @@ Xtreme1 is the world's first open-source platform for **multisensory training da
 
 Xtreme1 provides deep insight into data annotation, data curation, and ontology management to solve 2D image and 3D point cloud dataset ML challenges.
 
-The built-in AI-assisted tools take your annotation efforts to the next level of efficiency for your **2D/3D Object Detection**, **3D Instance Segmentation**, and **LiDAR-Camera Fusion projectsF**
+The built-in AI-assisted tools take your annotation efforts to the next level of efficiency for your **2D/3D Object Detection**, **3D Instance Segmentation**, and **LiDAR-Camera Fusion projects.**
 
 ## Getting Started
 
