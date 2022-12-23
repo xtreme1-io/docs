@@ -1,4 +1,4 @@
-# 🛅 Install with Docker
+# 🛳 Install with Docker
 
 Xtreme1 can be installed via Docker.&#x20;
 
