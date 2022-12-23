@@ -16,6 +16,10 @@
 * [⛽ Upload Dataset](product-guides/upload-dataset.md)
 * [🏷 Ontology](product-guides/ontology.md)
 
+***
+
+* [Export Data](export-data.md)
+
 ## DEVELOPER REFERENCE
 
 * [🎹 API Document](developer-reference/api-document.md)
