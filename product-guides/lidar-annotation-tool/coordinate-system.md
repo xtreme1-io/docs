@@ -23,7 +23,7 @@ The origin of the image in the 2D & 3D fusion tool mapping of the point cloud to
 
 The X value becomes larger to the right, and the Y value becomes larger downward (as shown in the figure below).
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>The coordinate position information in the 2D annotation result is the value relative to the image coordinate system.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>The coordinate position information in the 2D annotation result is the value relative to the image coordinate system.</p></figcaption></figure>
 
 ### Camera parameters (for 2D & 3D fusion datasets)
 
@@ -98,7 +98,7 @@ When building the camera parameters into the tool, the 4x3 or 3x3 matrix needs t
 
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Internal parameter conversion</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>External parameter conversion</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>External parameter conversion</p></figcaption></figure>
 
 **Conversion example (**[**KITTI**](https://www.cvlibs.net/datasets/kitti/)[ **Dataset**](https://www.cvlibs.net/datasets/kitti/)**)**
 
