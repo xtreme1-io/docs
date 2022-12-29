@@ -29,8 +29,6 @@ All available models can be chosen from the list.
 
 <figure><img src="../.gitbook/assets/modelset_ss.png" alt=""><figcaption></figcaption></figure>
 
-For model details and how to integrate with my or third-party's models, see Model page.
-
 ### Run the Interactive Model
 
 Select the interactive model (for segmentation) and create a bounding box to the object then a polygon that fits the recognized object will be created by the AI model.
