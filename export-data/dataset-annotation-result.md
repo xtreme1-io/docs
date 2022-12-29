@@ -1,10 +1,10 @@
 # Dataset Annotation Result
 
-The annotation result of Dataset is obtained by merging the annotation results of all the Data under it. It doesn't need to be stored separately, so only the import/export cases need to be supported.
+The annotation result of dataset is obtained by merging the annotation results of all the data under it. It doesn't need to be stored separately, so only the import/export cases need to be supported.
 
 ## **Single JSON file**
 
-The annotation results of all Data are merged into one large JSON file. This is suitable for situations where the amount of data is small, for example, the number of data does not exceed 1000.
+The annotation results of all data are merged into one large JSON file. This is suitable for situations where the amount of data is small, for example, the number of data does not exceed 1000.
 
 1. Separate different types of information. For example, separating results and data information allows result information to adopt a simple flat structure, while data information can adopt a multi-layer structure (Frame series);
 2. The Data ID and Class ID included in the JSON are all external IDs. Even internal IDs become external IDs once exported. When importing again, a new internal ID will be generated, and the original record cannot be overwritten. Various types of objects are associated through external IDs, such as the Class to which the Object belongs.

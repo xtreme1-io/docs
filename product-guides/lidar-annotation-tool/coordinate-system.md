@@ -98,7 +98,7 @@ When building the camera parameters into the tool, the 4x3 or 3x3 matrix needs t
 
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Internal parameter conversion</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>External parameter conversion</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>External parameter conversion</p></figcaption></figure>
 
 **Conversion example (**[**KITTI**](https://www.cvlibs.net/datasets/kitti/)[ **Dataset**](https://www.cvlibs.net/datasets/kitti/)**)**
 

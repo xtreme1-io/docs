@@ -31,3 +31,7 @@
 
 * [🎹 API Document](developer-reference/api-document/README.md)
   * [API Reference](https://www.apifox.cn/apidoc/shared-2f8468c3-a269-4e3d-9df7-c589bda69450)
+
+## Changelog
+
+* [V 0.5.5](changelog/v-0.5.5.md)
