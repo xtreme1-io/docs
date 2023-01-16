@@ -47,7 +47,7 @@ In Settings, some parameters can help you on the annotation process by adjusting
 
 ### Shortcut List
 
-|               Key               |     Description    |
+|               Key               |         Key        |
 | :-----------------------------: | :----------------: |
 |          **About Data**         |  **Shortcut key**  |
 |             Previous            |       Page Up      |
