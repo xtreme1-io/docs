@@ -44,7 +44,7 @@ If you don’t see a supported data or file type that you want to upload, Join o
 
 All same set data must be placed in different folders with the identical file name.
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Folder Structure Diagram</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/fold-structure.png" alt=""><figcaption><p>Folder Structure Diagram</p></figcaption></figure>
 
 The 2D & 3D LiDAR Fusion dataset sample can be downloaded from [_here_](https://app.box.com/s/iuwytq16vakhiy6dlh3uxe4s65s03qu6).
 
