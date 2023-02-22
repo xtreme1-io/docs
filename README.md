@@ -47,8 +47,8 @@ You can install Xtreme1 on a Linux, Windows, or MacOSX machine.
 Get started from the [**Quick Start**](overview/what-we-do.md):
 
 ```bash
-wget https://github.com/xtreme1-io/xtreme1/releases/download/v0.5.2/xtreme1-v0.5.2.zip
-unzip -d xtreme1-v0.5.2 xtreme1-v0.5.2.zip
+wget https://github.com/xtreme1-io/xtreme1/releases/download/v0.5.5/xtreme1-v0.5.5.zip
+unzip -d xtreme1-v0.5.5 xtreme1-v0.5.5.zip
 
 docker compose up
 ```
