@@ -50,8 +50,8 @@ Download the latest release package and unzip it.
 Or using the following command:
 
 ```bash
-wget https://github.com/xtreme1-io/xtreme1/releases/download/v0.5.5/xtreme1-v0.5.5.zip
-unzip -d xtreme1-v0.5.5 xtreme1-v0.5.5.zip
+wget https://github.com/xtreme1-io/xtreme1/releases/download/v0.5.6/xtreme1-v0.5.6.zip
+unzip -d xtreme1-v0.5.6 xtreme1-v0.5.6.zip
 ```
 
 ### Start all services
@@ -109,7 +109,15 @@ Docker compose will pull all service images from Docker Hub, including basic ser
 }
 </code></pre>
 
+### Running docker images on ARM architecture machines&#x20;
 
+> :warning: Please note that certain Docker images, including `MySQL`, may not be compatible with the ARM architecture. In case your computer is based on an ARM CPU (e.g. Apple M1), you can create a Docker Compose override file called `docker-compose.override.yml` and include the following content. While this method uses QEMU emulation to enforce the use of the ARM64 image on the ARM64 platform, it may impact performance.
+
+```yaml
+services:
+  mysql:
+    platform: linux/amd64
+```
 
 #### Got 2 minutes? Check out a video tutorial of our product installation:
 

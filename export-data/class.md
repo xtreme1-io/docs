@@ -2,7 +2,7 @@
 
 Class contains multiple attributes. Currently, it does not support multi-layer nesting of attributes.
 
-<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption><p>The class structure example</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2) (1).png" alt=""><figcaption><p>The class structure example</p></figcaption></figure>
 
 ```json
 JSON Example

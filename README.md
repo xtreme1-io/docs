@@ -18,9 +18,9 @@ The built-in AI-assisted tools take your annotation efforts to the next level of
 
 ## Key Features
 
-| Image Bounding-box Annotation - [YOLOR](https://github.com/WongKinYiu/yolor) | Image Segmentation Annotation - [RITM](https://github.com/saic-vul/ritm\_interactive\_segmentation) |
-| :--------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------: |
-|                   ![](.gitbook/assets/image-bbox-model.gif)                  |                                ![](.gitbook/assets/2d-seg-model.gif)                                |
+| Image Annotation (B-box, Segmentation) - [YOLOR](https://github.com/WongKinYiu/yolor) & [RITM](https://github.com/saic-vul/ritm\_interactive\_segmentation) | Lidar-camera Fusion (Frame series) Annotation - [OpenPCDet](https://github.com/open-mmlab/OpenPCDet) & [AB3DMOT](https://github.com/xinshuoweng/AB3DMOT) |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                                                                                                             |                                                           ![](.gitbook/assets/2d-seg-model.gif)                                                          |
 
 :one: Supports data labeling for images :camera:, 3D LiDAR and 2D/3D Sensor Fusion datasets :oncoming\_automobile: :vertical\_traffic\_light: :no\_pedestrians:
 
@@ -36,7 +36,7 @@ The built-in AI-assisted tools take your annotation efforts to the next level of
 
 | 3D Point Cloud Cuboid Annotation - [OpenPCDet](https://github.com/open-mmlab/OpenPCDet) | 2D & 3D Fusion Object Tracking Annotation - [AB3DMOT](https://github.com/xinshuoweng/AB3DMOT) |
 | :-------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------: |
-|                          ![](.gitbook/assets/3d-annotation.gif)                         |                            ![](.gitbook/assets/3d-track-model.gif)                            |
+|                          ![](.gitbook/assets/3d-annotation.gif)                         |                              ![](<.gitbook/assets/image (3).png>)                             |
 
 ## Getting Started
 

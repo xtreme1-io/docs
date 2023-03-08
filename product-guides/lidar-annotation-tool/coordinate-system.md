@@ -15,7 +15,7 @@ The point cloud annotation tool mainly involves two coordinate systems:&#x20;
 
 The 3D point cloud tool uses a right-handed coordinate system. The coordinate system of the point cloud data is the world coordinate system, and the coordinate system of the point cloud is up with the Z axis (as shown in the figure below).
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>The position information position of the 3D annotation result is the coordinate value of the relative point cloud coordinate system</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>The position information position of the 3D annotation result is the coordinate value of the relative point cloud coordinate system</p></figcaption></figure>
 
 ### 2D Image Coordinate System
 
@@ -96,7 +96,7 @@ S(u,v) = M(internal) x M(external) x P
 
 When building the camera parameters into the tool, the 4x3 or 3x3 matrix needs to be filled into a 4x4 matrix, as follows:
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Internal parameter conversion</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Internal parameter conversion</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>External parameter conversion</p></figcaption></figure>
 
