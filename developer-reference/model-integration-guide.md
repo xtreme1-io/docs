@@ -73,7 +73,7 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 def predict(pcd_url):
-     # 1. Download the pcd file from the pcd_url file (make sure the algorithm service is connected to the Xtreme1 service machine)
+     # 1. Download the pcd file via pcd_url (make sure the algorithm service is connected to the Xtreme1 service machine)
      # r = requests. get(pcd_url, allow_redirects=True)
      # 2. Load the pcd file and get the point cloud information
      # pcd_file = io.BytesIO(r.content)
@@ -117,7 +117,6 @@ def recognition():
 #### Start Service
 
 ```shell
-Shell
 # flask 2.2.3
 flask --app=pcdet_demo_service run --host=0.0.0.0 --port=5000
 ```
@@ -125,7 +124,6 @@ flask --app=pcdet_demo_service run --host=0.0.0.0 --port=5000
 #### Testing Service
 
 ```sh
-Shell
 curl -X POST http://<ip>:<port>/pointCloud/recognition -H "Content-Type: application/json"  -d '{"datas": [{"id":1, "pointCloudUrl":"http://test"}]}'
 ```
 
@@ -163,6 +161,7 @@ Note: You need to ensure that the machine where the Xtreme1 service is deployed 
       "objects": [{...}]
     }
   ]
+  }
 ```
 
 
