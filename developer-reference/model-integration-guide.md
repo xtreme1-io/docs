@@ -19,13 +19,14 @@ description: Xtreme1 Point Cloud Object Detection Model Integration Guide
  # A request can contain multiple pieces of data
      "datas": [
      # Each frame of data contains one point cloud file
-     {
-         "id": 1, # UUID
-         "pointCloudUrl": "https://path/to/000001.pcd", # url of the point cloud file
-         "imageUrls": [
-             "https://path/to/image0/000001.jpg",
-             ...
-         ],
+ {
+     "id": 1, # UUID
+     "pointCloudUrl": "https://path/to/000001.pcd", # url of the point cloud file
+     "imageUrls": 
+     [
+         "https://path/to/image0/000001.jpg",
+         ...
+     ],
          "cameraConfigUrl": "https://path/to/camera_config/000001.json"
          }
      ]
@@ -36,26 +37,27 @@ description: Xtreme1 Point Cloud Object Detection Model Integration Guide
 
 ```python
 {
-     "code": "OK",
-     "message": "",
-     "data": [
-         {
-             "id": 1, # UUID from request
-             "code": "OK",
-             "message": "",
-             "objects": [
-                 {
-                     "label": "CAR", # class
-                     "confidence": 0.7 # Confidence: (0~1)
-                    
-                     "x": 0.0, "y": 0.0, "z": 0.0, # The position of the center point of the box
-                     "dx": 3, "dy": 2, "dz": 1.5, # size of the box
-                     "rotX": 0, "rotY": 0, "rotZ": 0.5, # The rotation direction of the box (Euler angle XYZ, intrinsic rotations)
-                 }
-             ],
-             "confidence": 0.8 # Confidence of the whole data (optional)
-         }
-     ]
+ "code": "OK",
+ "message": "",
+ "data": [
+ {
+    "id": 1, # UUID from request
+    "code": "OK",
+    "message": "",
+    "objects": 
+  [
+       {
+        "label": "CAR", # class
+        "confidence": 0.7 # Confidence: (0~1)
+            
+        "x": 0.0, "y": 0.0, "z": 0.0, # The position of the center point of the box
+        "dx": 3, "dy": 2, "dz": 1.5, # size of the box
+        "rotX": 0, "rotY": 0, "rotZ": 0.5, # The rotation direction of the box (Euler angle XYZ, intrinsic rotations)
+        }
+  ],
+     "confidence": 0.8 # Confidence of the whole data (optional)
+       }
+ ]
 }
 ```
 
@@ -82,14 +84,14 @@ def predict(pcd_url):
      # results = object_detection(pc)
      return [
          # return a detection example
-         {
-             "label": "CAR", # category
-             "confidence": 0.7, # Confidence: (0~1)
-            
-             "x": 0.0, "y": 0.0, "z": 0.0, # the position of the center point of the box
-             "dx": 3, "dy": 2, "dz": 1.5, # size of the box
-             "rotX": 0, "rotY": 0, "rotZ": 0.5, # The rotation direction of the box (Euler angle XYZ, intrinsic rotations)
-         }
+     {
+         "label": "CAR", # category
+         "confidence": 0.7, # Confidence: (0~1)
+        
+         "x": 0.0, "y": 0.0, "z": 0.0, # the position of the center point of the box
+         "dx": 3, "dy": 2, "dz": 1.5, # size of the box
+         "rotX": 0, "rotY": 0, "rotZ": 0.5, # The rotation direction of the box (Euler angle XYZ, intrinsic rotations)
+     }
      ]
 
 @app.route("/pointCloud/recognition", methods = ['POST'])
