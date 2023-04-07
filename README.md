@@ -5,7 +5,7 @@ description: Open-source platform for multisensory training data.
 # Welcome to Xtreme1
 
 {% hint style="info" %}
-Find our GitHub repos at [https://github.com/xtreme1-io/xtreme1](https://github.com/xtreme1-io/xtreme1)****
+Find our GitHub repos at [https://github.com/xtreme1-io/xtreme1](https://github.com/xtreme1-io/xtreme1)
 {% endhint %}
 
 ## Introduction

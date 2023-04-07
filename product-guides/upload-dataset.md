@@ -6,7 +6,7 @@ description: Image, LiDAR and 2D & 3D Fusion LiDAR datasets format requirement
 
 ## Dataset Format
 
-Datasets can be uploaded from the `local drive` __ and through`URLs`.
+Datasets can be uploaded from the `local drive` and through`URLs`.
 
 ### **Image**
 

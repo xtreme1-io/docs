@@ -32,6 +32,7 @@
 * [🎹 API Document](developer-reference/api-document/README.md)
   * [Page 1](developer-reference/api-document/page-1.md)
   * [API Reference](https://www.apifox.cn/apidoc/shared-2f8468c3-a269-4e3d-9df7-c589bda69450)
+* [🪄 Model Integration Guide](developer-reference/model-integration-guide.md)
 
 ## Changelog
 
