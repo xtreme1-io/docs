@@ -50,8 +50,8 @@ Download the latest release package and unzip it.
 Or using the following command:
 
 ```bash
-wget https://github.com/xtreme1-io/xtreme1/releases/download/v0.5.6/xtreme1-v0.5.6.zip
-unzip -d xtreme1-v0.5.6 xtreme1-v0.5.6.zip
+wget https://github.com/xtreme1-io/xtreme1/releases/download/v0.6.0/xtreme1-v0.6.0.zip
+unzip -d xtreme1-v0.6.0 xtreme1-v0.6.0.zip
 ```
 
 ### Start all services
