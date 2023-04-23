@@ -16,6 +16,9 @@
 * [⛽ Upload Dataset](product-guides/upload-dataset.md)
 * [🏷 Ontology](product-guides/ontology/README.md)
   * [Import Class/Classification](product-guides/ontology/import-class-classification.md)
+* [🎡 Data Curation](product-guides/data-curation/README.md)
+  * [Kanban](product-guides/data-curation/kanban.md)
+  * [Data Similarity Map](product-guides/data-curation/data-similarity-map.md)
 
 ***
 

@@ -96,7 +96,7 @@ S(u,v) = M(internal) x M(external) x P
 
 When building the camera parameters into the tool, the 4x3 or 3x3 matrix needs to be filled into a 4x4 matrix, as follows:
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Internal parameter conversion</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption><p>Internal parameter conversion</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>External parameter conversion</p></figcaption></figure>
 
