@@ -2,9 +2,7 @@
 description: Multiple rounds of dialogues
 ---
 
-# 📖 Text Annotation (beta)
-
-
+# 📖 Text Annotation Tool (beta)
 
 {% hint style="info" %}
 Multiple rounds of dialogues annotation refer to the process of annotating a conversation between two or more parties through multiple iterations or rounds of annotation. In this process, after annotating each round of dialogue, the annotations are reviewed and corrected if necessary before proceeding to the next round of annotation. This iterative process is often used when handling complex or nuanced conversations that require careful analysis and interpretation.&#x20;
@@ -42,4 +40,10 @@ For text-type datasets, Xtreme1 also supports dataset splitting. Users can divid
 
 ## Sample dataset
 
-Sample dataset can be [download at here](https://app.box.com/s/v97k7rlrs8oxhz12iz3f3qcgr3p5vukc).
+```
+LLM text annotation dataset structure
+├── test
+│   ├── 00.json
+```
+
+A sample dataset can be [download at here](https://app.box.com/s/v97k7rlrs8oxhz12iz3f3qcgr3p5vukc).
