@@ -40,3 +40,6 @@ Xtreme1 supports selection and filtering of data status (valid / invalid) and an
 
 For text-type datasets, Xtreme1 also supports dataset splitting. Users can divide the dataset into training, validation, and testing sets for model training, validation, and final evaluation. This helps to improve the performance of the model, thus achieving more accurate predictions and recommendations.
 
+## Sample dataset
+
+Sample dataset can be [download at here](https://app.box.com/s/v97k7rlrs8oxhz12iz3f3qcgr3p5vukc).
