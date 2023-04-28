@@ -13,6 +13,7 @@
 * [🖼 Image Annotation Tool](product-guides/image-annotation-tool.md)
 * [🛣 LiDAR Annotation Tool](product-guides/lidar-annotation-tool/README.md)
   * [📸 Coordinate System](product-guides/lidar-annotation-tool/coordinate-system.md)
+* [📖 Text Annotation (beta)](product-guides/text-annotation-beta.md)
 * [⛽ Upload Dataset](product-guides/upload-dataset.md)
 * [🏷 Ontology](product-guides/ontology/README.md)
   * [Import Class/Classification](product-guides/ontology/import-class-classification.md)
