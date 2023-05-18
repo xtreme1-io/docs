@@ -36,7 +36,7 @@ The built-in AI-assisted tools take your annotation efforts to the next level of
 
 | 3D Point Cloud Cuboid Annotation - [OpenPCDet](https://github.com/open-mmlab/OpenPCDet) | 2D & 3D Fusion Object Tracking Annotation - [AB3DMOT](https://github.com/xinshuoweng/AB3DMOT) |
 | :-------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------: |
-|                          ![](.gitbook/assets/3d-annotation.gif)                         |                            ![](<.gitbook/assets/image (3) (2).png>)                           |
+|                          ![](.gitbook/assets/3d-annotation.gif)                         |                          ![](<.gitbook/assets/image (3) (2) (1).png>)                         |
 
 ## Getting Started
 

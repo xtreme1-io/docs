@@ -39,4 +39,4 @@ Find it in `Dataset` -> `Overall`, some statistics about the dataset can be seen
 * Data annotation progress
 * Distribution histogram by `class` or `classification`
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>

@@ -1,274 +1,268 @@
+---
+description: Class and Classification
+---
+
 # Data Annotation Result
 
-Since the annotation results are stored at the granularity of data, the data annotation result format needs to support both internal storage and import/export scenarios.A data may be labeled by multiple sources, and the labeling results need to be distinguished by source.
+## Class
 
-1. Object means Cuboid, and each Cuboid belongs to a certain Tracking Object. Note that a Tracking Object in a single frame may also contain multiple Cuboids (such as LiDAR-camera fusion dataset). The Object ID is UUID;
-2. The import/export is based on the internal storage format, but the information used only internally, such as meta info, is removed;
-3. Some information is not used when importing, but is needed for internal storage, it will be automatically added when importing, such as Object id, version, createdBy, createdAt, etc. Conversely, some redundant information is not stored in the internal storage, but needs to be added when exporting;&#x20;
-4. Point cloud segmentation needs to store the point information in a separate file, and record the file URL in JSON to avoid JSON being too large. When importing/exporting, if the file is divided by Data, the point information can be directly placed in the file.
+Class contains multiple attributes. Currently, it does not support multi-layer nesting of attributes.
+
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p>An example with a hierarchical class structure</p></figcaption></figure>
+
+## Classification <a href="#classification" id="classification"></a>
+
+The Classification contains only one attribute, but attributes can be nested in multiple layers. That is, the Option can also contain attributes.
+
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+## Export Result Description <a href="#export-result-description" id="export-result-description"></a>
+
+Please refer to[ Upload Dataset](../product-guides/upload-dataset.md) page for uploading pre-annotation result format and document structure.
+
+### Description of Lidar-camera Fusion Annotation Results[#](https://docs.basic.ai/export\_class#description-of-lidar-camera-fusion-annotation-results) <a href="#description-of-lidar-camera-fusion-annotation-results" id="description-of-lidar-camera-fusion-annotation-results"></a>
+
+```
+[
+  {
+    "version": "Xtreme1 V0.6",
+    "dataId": 3091870,
+    "sourceName": "Ground Truth",
+    "classificationValues": null,
+    "objects": [
+      {
+        "id": "033DA6D7-3F4F-411E-B97C-DCD43C762BD4",
+        "type": "3D_BOX",
+        "classId": 455555556457,
+        "className": "car",
+        "trackId": "-COOq29Lf0S8XAvD",
+        "trackName": "2",
+        "classValues": [
+          {
+            "id": "7722689b-05a9-46b4-8e15-63dd0da55082",
+            "name": "type",
+            "type": "RADIO",
+            "alias": "type",
+            "value": "suv",
+            "isLeaf": true
+          }
+        ],
+        "contour": {
+          "pointN": 1606,
+          "points": [],
+          "size3D": {
+            "x": 4.784937233663604,
+            "y": 3.0378181156906283,
+            "z": 1.58
+          },
+          "center3D": {
+            "x": -3.4826021259294277,
+            "y": -9.45454056815398,
+            "z": 0.56
+          },
+          "viewIndex": 0,
+          "rotation3D": {
+            "x": 0,
+            "y": 0,
+            "z": 0.5879414415603956
+          }
+        },
+        "modelConfidence": null,
+        "modelClass": ""
+      },
+      {
+        "id": "7F88DC7C-4248-4B60-818A-291C387F2DE0",
+        "type": "2D_BOX",
+        "classId": 455555556457,
+        "className": "car",
+        "trackId": "-COOq29Lf0S8XAvD",
+        "trackName": "2",
+        "classValues": [],
+        "contour": {
+          "pointN": 0,
+          "points": [
+            {
+              "x": 319.40950163247703,
+              "y": 506.0158418379105
+            },
+            {
+              "x": 314.60949113429047,
+              "y": 662.7868372938835
+            },
+            {
+              "x": 585.4095102457297,
+              "y": 687.561499190987
+            },
+            {
+              "x": 591.1197588821177,
+              "y": 518.5722902765182
+            },
+            {
+              "x": 582.1888667302327,
+              "y": 505.75545447656134
+            },
+            {
+              "x": 578.6576787082304,
+              "y": 610.5962127027935
+            },
+            {
+              "x": 768.6306027864321,
+              "y": 624.0894977081099
+            },
+            {
+              "x": 772.5861220555981,
+              "y": 513.9219251252006
+            }
+          ],
+          "size3D": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "center3D": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "viewIndex": 0,
+          "rotation3D": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "modelConfidence": null,
+        "modelClass": ""
+      },
+      {
+        "id": "6E1A62B0-A064-4A27-944B-B03DE6EA0B69",
+        "type": "2D_RECT",
+        "classId": 455555556457,
+        "className": "car",
+        "trackId": "-COOq29Lf0S8XAvD",
+        "trackName": "2",
+        "classValues": [],
+        "contour": {
+          "pointN": 0,
+          "points": [
+            {
+              "x": 314.60949113429047,
+              "y": 505.7554544765612
+            },
+            {
+              "x": 314.60949113429047,
+              "y": 687.561499190987
+            },
+            {
+              "x": 772.5861220555983,
+              "y": 687.561499190987
+            },
+            {
+              "x": 772.5861220555983,
+              "y": 505.7554544765612
+            }
+          ],
+          "size3D": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "center3D": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "viewIndex": 0,
+          "rotation3D": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "modelConfidence": null,
+        "modelClass": ""
+      }
+    ]
+  }
+]
+```
+
+### Description of Image Annotation Results <a href="#description-of-image-fusion-annotation-results" id="description-of-image-fusion-annotation-results"></a>
+
+The coordinate origin is the upper left corner of the image.
 
 ```json
-JSON example
-{
-    // Format version
-    "version": "1.0",
-    // Data ID. Not required when importing.
-    "dataId": 1,
-    // Source ID. Not required when importing.
-    "sourceId": 1,
-    // Result source type. It can only be EXTERNAL related type when importing
-    // DATA_FLOW, TASK, MODEL, EXTERNAL_GROUND_TRUTH, EXTERNAL_MODEL
-    "sourceType": "TASK",
-    // SourceName
-    "sourceName": "20221009000000",
-   
-    // Validity. Currently, not supported for importing.
-    "validity": "VALID",
-    
-    // Category attribute value. 
-    //If provided during import, relevant category information must be provided at the outer layer to create a new one.
-    "classificationValues": [
-        {
-            // Type ID
-            "id": 1,
-            // Category value. Each layer of attributes and their values form a node, 
-            // and the parent-child relationship is established between nodes through pid (attribute ID) and pvalue (attribute value)
-            "values": [
-                {
-                    // Property ID
-                    "id": "64a16626-153f-4136-b7b4-572c10db08c3",
-                    // ID of the parent attribute. If it is null, it is the root node.
-                    "pid": null,
-                    // It is only used when the parent attribute value is multi-choice, 
-                    //and it is used to indicate which value is associated
-                    "pvalue": null,
-                    "name": "Make",
-                    "type": "RADIO",
-                    "value": "Mercedes-Benz",
-                    "alias": "Manufacture",
-                    // Whether it is a leaf node, note that it may be a non-leaf node in the definition.
-                    "isLeaf": false
-                },
-                {
-                    "id": "0fcb5add-4d2a-4d15-85e7-a8db966e6178",
-                    "pid": "64a16626-153f-4136-b7b4-572c10db08c3",
-                    "pvalue": null,
-                    "name": "Model",
-                    "type": "RADIO",
-                    "value": "GLE450",
-                    "alias": null,
-                    "isLeaf": false
-                },
-                {
-                    "id": "69607032-9b53-4c95-90a8-6e378c19aa08",
-                    "pid": "0fcb5add-4d2a-4d15-85e7-a8db966e6178",
-                    "pvalue": null,
-                    "name": "Color",
-                    "type": "RADIO",
-                    "value": "Black",
-                    "alias": null,
-                    "isLeaf": true
-                },
-                {
-                    "id": "24ce829b-9b60-4b88-99f7-379b144a3cb3",
-                    "pid": "64a16626-153f-4136-b7b4-572c10db08c3",
-                    "pvalue": null,
-                    "name": "Type",
-                    "type": "RADIO",
-                    "value": "Sedan",
-                    "alias": null,
-                    "isLeaf": true
-                },
-                {
-                    "id": "0669d8b1-f175-4f46-a8d2-cea7bf9dc1e2",
-                    "pid": "64a16626-153f-4136-b7b4-572c10db08c3",
-                    "pvalue": null,
-                    "name": "Motor",
-                    "type": "MULTI_SELECTION",
-                    "value": ["Gas", "Electric"],
-                    "alias": null,
-                    "isLeaf": false
-                },
-                {
-                    "id": "9c0d296f-7141-4fd9-9cbe-c3d96a93d411",
-                    "pid": "0669d8b1-f175-4f46-a8d2-cea7bf9dc1e2",
-                    "pvalue": "Gas",
-                    "name": "Engine Capacity",
-                    "type": "RADIO",
-                    "value": "2.0L",
-                    "alias": null,
-                    "isLeaf": true
-                },
-                {
-                    "id": "8e790d10-9931-43f6-82bb-60619f1a25ea",
-                    "pid": "0669d8b1-f175-4f46-a8d2-cea7bf9dc1e2",
-                    "pvalue": "Electric",
-                    "name": "Capacity",
-                    "type": "RADIO",
-                    "value": "20～50kWh",
-                    "alias": null,
-                    "isLeaf": true
-                }
-            ]
-        }
-    ],
-    
-    // object (cubild) list
-    "objects": [
-        // 3D Cuboid
-        {
-            // ID. Not required when importing. 
-            // It will be automatically filled.
-            "id": "6ec0bd7f-11c0-43da-975e-2a8ad9ebae0b",
-            // Tool type
-            // 3D_BOX, 2D_RECT, 3D_SEGMENT_POINTS, 3D Segmentation
-            "type": "3D_BOX",
-            // Updated version. Initial value is 0.
-            // Each change increases by 1.
-            // Not required when importing. It will be automatically filled when exporting.
-            "createdBy": 1,
-            // Created time.
-            // Not required when importing. It will be automatically filled when exporting.
-            "createdAt": "2012-03-29T10:05:45Z",
-            
-            3D Object Tracking (Frame series) is NOT available on Xtreme1 open source version.
-            // Tracking ID
-            "trackId": "J0lkBP7r",
-            // Track object name
-            "trackName": "Car 1",
-
-            // Category ID. If provided during import, relevant category information must be provided in the outer layer to create a new one
-            "classId": 1,
-            // Class name
-            // Not required when importing. It will be automatically filled when exporting.
-            "className": "Car",
-            // Class attribute value. Similar to Classification, does not support multi-level nesting.
-            "classValues": [
-                {
-                    "id": "bdc9acdf-4337-42de-8964-a1b5b6820287",
-                    "pid": null,
-                    "pvalue": null,
-                    "name": "Made",
-                    "type": "RADIO",
-                    "value": "Mercedes-Benz",
-                    "alias": "Manufacture",
-                    "isLeaf": true
-                },
-                {
-                    "id": "0fcb5add-4d2a-4d15-85e7-a8db966e6178",
-                    "pid": null,
-                    "pvalue": null,
-                    "name": "Model",
-                    "type": "RADIO",
-                    "value": "GLE450",
-                    "alias": null,
-                    "isLeaf": true
-                },
-                {
-                    "id": "24ce829b-9b60-4b88-99f7-379b144a3cb3",
-                    "pid": null,
-                    "pvalue": null,
-                    "name": "Type",
-                    "type": "RADIO",
-                    "value": "Sedan",
-                    "alias": null,
-                    "isLeaf": true
-                },
-                {
-                    "id": "0669d8b1-f175-4f46-a8d2-cea7bf9dc1e2",
-                    "pid": null,
-                    "pvalue": null,
-                    "name": "Motor",
-                    "type": "MULTI_SELECTION",
-                    "value": ["Gas", "Electric"],
-                    "alias": null,
-                    "isLeaf": true
-                }
-            ],
-            
-            // Confidence value. It is only available when using model prediction.
-            "modelConfidence": 0.83232,
-            // Using model to predict the class. It is only available when using model prediction.
-            "modelClass": "Person",
-            
-            // The coordinate information of the result varies according to the specific tool type.
-            "contour": {
-                "points": [],
-                "pointN": 3057,
-                "size3D": { "x": 2.2125, "y": 4.993, "z": 1.38 },
-                "center3D": { "x": 3.9220652257399284, "y": -6.013346632547687, "z": 0.39 },
-                "rotation3D": { "x": 0, "y": 0, "z": -1.6622375116055483 }
+[
+    {
+        "version": "1.0",
+        "dataId": 8171960,
+        "sourceId": 384,
+        "sourceType": "DATA_FLOW",          //Annotation type
+        "sourceName": "Without Task",
+        "validity": "VALID",
+        "classificationValues": [           //Classification
+            {
+                "id": "321628",
+                "values": [
+                    {
+                        "alias": "day",
+                        "id": 321628,
+                        "isLeaf": true,
+                        "name": "day",
+                        "value": "raining"
+                    }
+                ]
             },
-                        
-            // Meta info. Only for internal storage. Not required for import/export
-            "meta": {
-                // Annotation type
-                // 3D_LABEL (3D cuboid)，2D_LABEL (2D b-box)，3D_SEGMENT，2D_SEGMENT
-                "annotateType": "3D_LABEL",
-                "classType":"",
-                // "valid": true,
-                // "checked": false,
-                // "isProjection": false,
-                // "invisibleFlag": false,
-                // "resultType": "Dynamic",
-                // "attrs": { "color": "#123" },
-                // "resultStatus": "True_value",
-                // "isStandard": false,
+            {
+                "id": "321629",
+                "values": []
             }
-        },
-        
-        // 2D bounding box
-        {
-            "id": "62383691-8077-44c2-ad8a-a6a7f54390c5",
-            "type": "2D_BOX",
-            "annotateType": "2D_LABEL",
-            "version": "1",
-            "createdBy": 1,
-            "createdAt": "2012-03-29T10:05:45Z",
-            
-            "trackId": "c0627d18-1aa1-4788-ac88-09e8772ed9bb",
-            "trackName": "Car 1",
-
-            "classId": 1,
-            "className": "",
-            "classValues": {},
-
-            "contour": {
-                "points": [
-                    { "x": 976.6271156786534, "y": 509.30442784738 },
-                    { "x": 976.9704479066531, "y": 518.6737077997769 }
+        ],
+        "objects": [
+            {
+                "id": "4b9e7a69-21df-4d54-8e82-2fe60ca3ecd7",
+                "type": "BOUNDING_BOX",     //Annotation type: bounding box
+                "trackId": "mfNF5NoTMoQlzIpK",
+                "trackName": "1",
+                "classValues": [
+                    {
+                        "alias": "",
+                        "id": "e26b9b9d-ce02-405c-972a-60508e5767c4",
+                        "isLeaf": true,
+                        "name": "color",     //Attributes
+                        "value": "red"
+                    },
+                    {
+                        "alias": "",
+                        "id": "8b991d9b-43a4-4bbd-9e64-62dcfadd723b",
+                        "isLeaf": true,
+                        "name": "condition",
+                        "value": "static"
+                    }
                 ],
-                "viewIndex": 3
-            },
-            
-            "meta": {}
-        },
-        
-        // 3D Segmentation
-        {
-            "id": "0d2c92c4-e96d-4672-abc7-a3480f412753",
-            "type": "3D_SEGMENT_POINTS",
-            "annotateType": "3D_SEGMENT",
-            "version": "1",
-            "createdBy": 1,
-            "createdAt": "2012-03-29T10:05:45Z",
-            
-            "trackId": "c0627d18-1aa1-4788-ac88-09e8772ed9bb",
-            "trackName": "Car 1",
+                "contour": {
+                    "points": [             //B-box coordinate
+                        {
+                            "x": 896.5871559633028,
+                            "y": 501.2477064220182
+                        },
+                        {
+                            "x": 1041.0275229357799,
+                            "y": 650.9724770642201
+                        }
+                    ]
+                },
+                "modelConfidence": null,
+                "modelClass": null,
+                "className": "car"          //Label name
+            }
+        ],
+        "segments": null,                   //Segmentation result
+        "segmentPointsFileUrls": null
+    }
+]
 
-            "classId": 1,
-            "className": "",
-            "classValues": {},
-
-            "contour": {
-                // Point cloud segmentation has a large amount of data, which is stored in files and is only used for internal storage
-                "url": "https://basicai-prod-app-annotation.s3.us-west-2.amazonaws.com/tenant-1/dataset-1/data-flow/data-2/segment-points-0d2c92c4-e96d-4672-abc7-a3480f412753.json"
-                // It is used for import/export. Due to the large amount of point information data, it is recommended to divide the JSON file by Data when exporting the annotation results of the dataset.
-                "points": []
-            },
-            
-            "meta": {}
-        }
-    ]
-}
 ```
+

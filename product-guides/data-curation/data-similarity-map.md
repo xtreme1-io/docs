@@ -21,7 +21,7 @@ Use b-box or polygon tool to select data on the map.
 
 Selected data can be displayed and save as a new dataset.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>The data close to each other in the map shows that they have a high degree of similarity.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>The data close to each other in the map shows that they have a high degree of similarity.</p></figcaption></figure>
 
 ## Learn more tech details, see these two open source repos:
 
