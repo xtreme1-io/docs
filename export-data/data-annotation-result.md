@@ -10,8 +10,6 @@ Class contains multiple attributes. Currently, it does not support multi-layer n
 
 <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p>An example with a hierarchical class structure</p></figcaption></figure>
-
 ## Classification <a href="#classification" id="classification"></a>
 
 The Classification contains only one attribute, but attributes can be nested in multiple layers. That is, the Option can also contain attributes.
