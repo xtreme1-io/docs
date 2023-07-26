@@ -18,7 +18,7 @@ Users can proactively upload multiway tree structured dialogue text data (JSON).
 
 #### Sample dataset
 
-Folder structure:
+**Folder structure:**
 
 ```
 LLM text annotation dataset structure
@@ -29,7 +29,17 @@ LLM text annotation dataset structure
 │   ├── ...
 ```
 
-Json example:
+**Field description:**
+
+`id`: the unique identifier of the current session
+
+`parentId`: last conversation ID&#x20;
+
+`text`: dialogue content&#x20;
+
+`role`: `prompter` is the questioner and `assistant` is the answerer
+
+**Json example:**
 
 {% code overflow="wrap" %}
 ```json
