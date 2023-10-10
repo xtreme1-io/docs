@@ -65,11 +65,11 @@ Join our community to chat with other members.
 
 Slack: [https://xtreme1io.slack.com](https://join.slack.com/t/xtreme1group/shared\_invite/zt-1jhk36uzr-NpdpYXeQAEHN6rYJy5\_6pg)
 
-Issue: [https://github.com/basicai/xtreme1/issues](https://github.com/basicai/xtreme1/issues)
+Issue: [https://github.com/xtreme1-io/xtreme1](https://github.com/xtreme1-io/xtreme1)[/issues](https://github.com/basicai/xtreme1/issues)
 
 Medium: [https://medium.com/multisensory-data-training](https://medium.com/multisensory-data-training)
 
-GitHub: [https://github.com/basicai/xtreme1](https://github.com/basicai/xtreme1)
+GitHub: [https://github.com/xtreme1-io/xtreme1](https://github.com/xtreme1-io/xtreme1)
 
 Twitter: [https://twitter.com/Xtreme1io](https://twitter.com/Xtreme1io)
 

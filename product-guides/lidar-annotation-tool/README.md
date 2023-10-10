@@ -33,11 +33,7 @@ Hit **C** on the keyboard to change the cuboid facing direction.
 It is recommended to use shortcut keys to adjust the position.
 {% endhint %}
 
-| Shortcut Key |    Check in 3 Views    |              Function               |
-| :----------: | :--------------------: | :---------------------------------: |
-|    **Z X**   | Check in Overhead view | Rotate Clockwise / Counterclockwise |
-|  **A W S D** |   Check in Side view   |   Move to Left / Up/ Down/ Right    |
-|    **Q E**   |   Check in Rear view   |         Move to Left / Right        |
+<table><thead><tr><th width="166.33333333333331" align="center">Shortcut Key</th><th width="220" align="center">Check in 3 Views</th><th align="center">Function </th></tr></thead><tbody><tr><td align="center"><strong>Z X</strong></td><td align="center">Check in Overhead view</td><td align="center">Rotate Clockwise / Counterclockwise</td></tr><tr><td align="center"> <strong>A W S D</strong></td><td align="center">Check in Side view</td><td align="center">Move to Left / Up/ Down/ Right </td></tr><tr><td align="center"><strong>Q E</strong></td><td align="center">Check in Rear view</td><td align="center">Move to Left / Right</td></tr></tbody></table>
 
 Note: Using shortcuts do not reset the scale of three views.
 

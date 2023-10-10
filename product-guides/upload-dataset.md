@@ -25,8 +25,7 @@ If you don’t see a supported data or file type that you want to upload, Join o
 
 LiDAR dataset folder must be compressed and placed under the folder "**point\_cloud**" and data must be in **.pcd** format.
 
-| LiDAR data format requirement | <p>Folder name: <strong>point_cloud</strong></p><p>File format: <strong>.pcd</strong></p><p>Upload file: compressed files <strong>(</strong>in <strong>.zip, .gzip, .tar</strong> format<strong>)</strong></p> |
-| ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+<table data-header-hidden><thead><tr><th width="295"></th><th></th></tr></thead><tbody><tr><td>LiDAR data format requirement</td><td><p>Folder name: <strong>point_cloud</strong></p><p>File format: <strong>.pcd</strong></p><p>Upload file: compressed files <strong>(</strong>in <strong>.zip, .gzip, .tar</strong> format<strong>)</strong></p></td></tr></tbody></table>
 
 The LiDAR dataset sample can be downloaded from [_here_](https://app.box.com/s/quxqvns8vzhi2w0kt8iladg0nbqp8s1l).
 
@@ -38,9 +37,7 @@ If you don’t see a supported data or file type that you want to upload, Join o
 
 2D & 3D LiDAR fusion dataset format requirement:
 
-| Folder structure | <p><strong>point_cloud</strong>: LiDAR data folder name</p><p><strong>camera_config</strong>: camera parameter files folder name </p><p><strong>image0</strong>: 1st set of image data folder name</p><p><strong>image1</strong>: 2nd set of image data folder name<strong>image2</strong>: 3rd set of image data folder name...<strong>imageN</strong>: Nth set of image data folder name</p> |
-| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| File format      | <p>LiDAR file format: <strong>.pcd</strong></p><p>Image file format: <strong>.jpg</strong> and <strong>.png</strong></p><p>Camera parameter file format: <strong>.json</strong></p><p>Upload file: compressed files in <strong>.zip, .gzip, .tar</strong> format</p>                                                                                                                           |
+<table data-header-hidden><thead><tr><th width="188"></th><th></th></tr></thead><tbody><tr><td>Folder structure</td><td><p><strong>point_cloud</strong>: LiDAR data folder name</p><p><strong>camera_config</strong>: camera parameter files folder name </p><p><strong>image0</strong>: 1st set of image data folder name</p><p><strong>image1</strong>: 2nd set of image data folder name<strong>image2</strong>: 3rd set of image data folder name...<strong>imageN</strong>: Nth set of image data folder name</p></td></tr><tr><td>File format</td><td><p>LiDAR file format: <strong>.pcd</strong></p><p>Image file format: <strong>.jpg</strong> and <strong>.png</strong></p><p>Camera parameter file format: <strong>.json</strong></p><p>Upload file: compressed files in <strong>.zip, .gzip, .tar</strong> format</p></td></tr></tbody></table>
 
 All same set data must be placed in different folders with the identical file name.
 
