@@ -10,11 +10,11 @@ You can install Xtreme1 on a Linux, Windows, or MacOSX machine.​​
 
 ### Download package <a href="#download-package" id="download-package"></a>
 
-Download the latest release package (v0.7.1 is the latest version) and unzip it. Or using the following command:
+Download the latest release package (v0.7.2 is the latest version) and unzip it. Or using the following command:
 
 ```bash
-wget https://github.com/xtreme1-io/xtreme1/releases/download/v0.7.1/xtreme1-v0.7.1.zip
-unzip -d xtreme1-v0.7.1 xtreme1-v0.7.1.zip
+wget https://github.com/xtreme1-io/xtreme1/releases/download/v0.7.2/xtreme1-v0.7.2.zip
+unzip -d xtreme1-v0.7.2 xtreme1-v0.7.2.zip
 ```
 
 ### Start all services <a href="#start-all-services" id="start-all-services"></a>
