@@ -87,6 +87,6 @@ Subscribe to the latest video tutorials on our [YouTube](https://www.youtube.com
 
 ## Learn more
 
-Visit the official website at [https://www.xtreme1.io/](https://www.xtreme1.io/)
+Visit the official website at [https://www.basic.ai/](https://www.xtreme1.io/)
 
 Please refer to Linux Foundation Trademark Usage page to learn about the usage policy and guidelines: [https://www.linuxfoundation.org/trademark-usage](https://www.linuxfoundation.org/trademark-usage).
