@@ -1,2 +1,0 @@
-# 🚘 Tutorials - nuScenes
-
