@@ -22,17 +22,17 @@ Please refer to[ Upload Dataset](../product-guides/upload-dataset.md) page for u
 
 ### Description of Lidar-camera Fusion Annotation Results[#](https://docs.basic.ai/export\_class#description-of-lidar-camera-fusion-annotation-results) <a href="#description-of-lidar-camera-fusion-annotation-results" id="description-of-lidar-camera-fusion-annotation-results"></a>
 
-```
+```json
 [
   {
     "version": "Xtreme1 V0.6",
     "dataId": 3091870,
-    "sourceName": "Ground Truth",
+    "sourceName": "Ground Truth", //Result source
     "classificationValues": null,
     "objects": [
       {
-        "id": "033DA6D7-3F4F-411E-B97C-DCD43C762BD4",
-        "type": "3D_BOX",
+        "id": "033DA6D7-3F4F-411E-B97C-DCD43C762BD4", //Result ID (randomly generated)
+        "type": "3D_BOX", //Result type: 3d cuboid
         "classId": 455555556457,
         "className": "car",
         "trackId": "-COOq29Lf0S8XAvD",
@@ -48,7 +48,7 @@ Please refer to[ Upload Dataset](../product-guides/upload-dataset.md) page for u
           }
         ],
         "contour": {
-          "pointN": 1606,
+          "pointN": 1606, //Total number of points in the cuboid
           "points": [],
           "size3D": {
             "x": 4.784937233663604,
@@ -60,7 +60,7 @@ Please refer to[ Upload Dataset](../product-guides/upload-dataset.md) page for u
             "y": -9.45454056815398,
             "z": 0.56
           },
-          "viewIndex": 0,
+          "viewIndex": 0, //Camera angle
           "rotation3D": {
             "x": 0,
             "y": 0,
@@ -72,7 +72,7 @@ Please refer to[ Upload Dataset](../product-guides/upload-dataset.md) page for u
       },
       {
         "id": "7F88DC7C-4248-4B60-818A-291C387F2DE0",
-        "type": "2D_BOX",
+        "type": "2D_BOX", //Result type: 2d b-box
         "classId": 455555556457,
         "className": "car",
         "trackId": "-COOq29Lf0S8XAvD",
