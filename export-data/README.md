@@ -12,6 +12,6 @@ description: Import and export data guideline
 
 ## SDK
 
-More popular dataset and pre-annotation results will be supported.
+More popular datasets and pre-annotation results will be supported.
 
 Find more info, see Xtreme1 SDK page on GitHub: [https://github.com/xtreme1-io/xtreme1-SDK](https://github.com/xtreme1-io/xtreme1-SDK)
