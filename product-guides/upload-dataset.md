@@ -13,6 +13,26 @@ Datasets can be uploaded from the `local drive` and through`URLs`.
 | Images data format requirement | <p>Image files in .jpg and .png are supported.<br></p><p>Compressed files (in .zip, .gzip, .tar format) can also be uploaded directly..</p> |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
 
+```Plain
+.
+├── image_0 // Image 0
+│   ├── data1.jpg
+│   └── data2.jpg
+├── data // Data info, only for exporting, more details can reference "Data Info" section
+│   ├── data1.json
+│   └── data2.json
+├── result // Annotation result, more details can reference "Data Annotation Result" section
+│   ├── data1.json
+│   ├── data1_image_0_segmentation.png 
+│   ├── data2.json
+│   └── data2_image_0_segmentation.png
+└── scene_1 // Scene, the structure is similar to the root directory
+│   ├── image_0
+│   ├── ...
+│   ├── data
+│   └── result
+```
+
 The image dataset sample can be downloaded from [_here_](https://app.box.com/s/hskeiv45ie1q3l6wubte6vaphreh76z3).
 
 > _This dataset is provided by_ [_PandaSet_](https://pandaset.org/) _- a high-quality open-source dataset for autonomous driving._
@@ -37,9 +57,9 @@ If you don’t see a supported data or file type that you want to upload, Join o
 
 2D & 3D LiDAR fusion dataset format requirement:
 
-<table data-header-hidden><thead><tr><th width="188"></th><th></th></tr></thead><tbody><tr><td>Folder structure</td><td><p><strong>point_cloud</strong>: LiDAR data folder name</p><p><strong>camera_config</strong>: camera parameter files folder name </p><p><strong>image0</strong>: 1st set of image data folder name</p><p><strong>image1</strong>: 2nd set of image data folder name<strong>image2</strong>: 3rd set of image data folder name...<strong>imageN</strong>: Nth set of image data folder name</p></td></tr><tr><td>File format</td><td><p>LiDAR file format: <strong>.pcd</strong></p><p>Image file format: <strong>.jpg</strong> and <strong>.png</strong></p><p>Camera parameter file format: <strong>.json</strong></p><p>Upload file: compressed files in <strong>.zip, .gzip, .tar</strong> format</p></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="188"></th><th></th></tr></thead><tbody><tr><td>Folder structure</td><td><p><strong>lidar_point_cloud_0</strong>: LiDAR data folder name</p><p><strong>camera_config</strong>: camera parameter files folder name </p><p><strong>camera_image_0</strong>: 1st set of image data folder name</p><p><strong>camera_image_1</strong>: 2nd set of image data folder name</p><p><strong>camera_image_2</strong>: 3rd set of image data folder name...</p><p><strong>camera_image_N</strong>: N+1th set of image data folder name</p><p><strong>scene_1</strong>:  scene folder contains multiple lidar data structures</p></td></tr><tr><td>File format</td><td><p>LiDAR file format: <strong>.pcd</strong></p><p>Image file format: <strong>.jpg</strong> and <strong>.png</strong></p><p>Camera parameter file format: <strong>.json</strong></p><p>Upload file: compressed files in <strong>.zip, .gzip, .tar</strong> format</p></td></tr></tbody></table>
 
-All same set data must be placed in different folders with the identical file name.
+All the same set of data must be placed in different folders with identical file names.
 
 <figure><img src="../.gitbook/assets/fold-structure.png" alt=""><figcaption><p>Folder Structure Diagram</p></figcaption></figure>
 
@@ -54,41 +74,43 @@ The 2D & 3D LiDAR Fusion dataset sample can be downloaded from [_here_](https://
 2D & 3D LiDAR Fusion dataset
 
 ```
-2D & 3D LiDAR Fusion dataset structure
-
-├── point_cloud
-│   ├── 00.pcd
-│   ├── 01.pcd
-│   ├── 02.pcd
-├── image0
-│   ├── 00.png
-│   ├── 01.png
-│   ├── 02.png
-├── image1
-│   ├── 00.png
-│   ├── 01.png
-│   ├── 02.png
-├── image2
-│   ├── 00.png
-│   ├── 01.png
-│   ├── 02.png
-├── camera_config
-│   ├── 00.json
-│   ├── 01.json
-│   ├── 02.json
-├── result
-│   ├── 00.json
-│   ├── 01.json
-│   ├── 02.json
+├── camera_config // Camera config, more details can reference "Point Cloud Camera Config" section
+│   ├── data1.json
+│   └── data2.json
+├── camera_image_0 // Camer image 0
+│   ├── data1.jpg
+│   └── data2.jpg
+├── camera_image_1 // Camer image 1
+│   ├── data1.jpg
+│   └── data2.jpg
+├── camera_image_2 // Camer image 2
+│   ├── data1.jpg
+│   └── data2.jpg
+├── lidar_config // Lidar config
+│   ├── data1.json
+│   └── data2.json
+├── lidar_point_cloud_0 // Lidar point cloud 0
+│   ├── data1.pcd
+│   └── data2.pcd
+├── result // Annotation result, more details can reference "Data Annotation Result" section
+│   ├── data1.json
+│   ├── data1_lidar_point_cloud_0_segmentation.pcd
+│   ├── data2.json
+│   └── data2_lidar_point_cloud_0_segmentation.pcd
+├── scene_1 // Scene, the structure is similar to the root directory
+│   ├── camera_config
+│   ├── ...
+│   ├── data
+│   └── result
 ```
 
 ### **Upload dataset with pre-annotation results**
 
-LiDAR basic and 2D & 3D LiDAR Fusion support to upload dataset with pre-annotation results.
+LiDAR basic and 2D & 3D LiDAR Fusion support to upload datasets with pre-annotation results.
 
-All json files must be placed under the`result` folder.
+All JSON files must be placed under the`result` folder.
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Dataset Folder Names</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 ## Tutorial
 
