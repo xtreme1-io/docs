@@ -73,8 +73,7 @@ The 2D & 3D LiDAR Fusion dataset sample can be downloaded from [_here_](https://
 
 2D & 3D LiDAR Fusion dataset
 
-```
-├── camera_config // Camera config, more details can reference "Point Cloud Camera Config" section
+<pre><code>├── camera_config // Camera config, more details can reference "Point Cloud Camera Config" section
 │   ├── data1.json
 │   └── data2.json
 ├── camera_image_0 // Camer image 0
@@ -89,8 +88,8 @@ The 2D & 3D LiDAR Fusion dataset sample can be downloaded from [_here_](https://
 ├── lidar_config // Lidar config
 │   ├── data1.json
 │   └── data2.json
-├── lidar_point_cloud_0 // Lidar point cloud 0
-│   ├── data1.pcd
+<strong>├── lidar_point_cloud_0 // Lidar point cloud 0
+</strong>│   ├── data1.pcd
 │   └── data2.pcd
 ├── result // Annotation result, more details can reference "Data Annotation Result" section
 │   ├── data1.json
@@ -99,10 +98,16 @@ The 2D & 3D LiDAR Fusion dataset sample can be downloaded from [_here_](https://
 │   └── data2_lidar_point_cloud_0_segmentation.pcd
 ├── scene_1 // Scene, the structure is similar to the root directory
 │   ├── camera_config
-│   ├── ...
-│   ├── data
+│       ├── data1.json
+│       └── data2.json
+│   ├── camera_image_0 // Camer image 0
+│       ├── data1.jpg
+│       └── data2.jpg
+│   ├── lidar_point_cloud_0 // Lidar point cloud 0
+│       ├── data1.pcd
+│       └── data2.pcd
 │   └── result
-```
+</code></pre>
 
 ### **Upload dataset with pre-annotation results**
 
