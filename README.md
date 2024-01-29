@@ -63,8 +63,6 @@ Xtreme1 project is now hosted in [LF AI & Data Foundation](https://lfaidata.foun
 
 Join our community to chat with other members.
 
-Slack: [https://xtreme1io.slack.com](https://join.slack.com/t/xtreme1group/shared\_invite/zt-1jhk36uzr-NpdpYXeQAEHN6rYJy5\_6pg)
-
 Issue: [https://github.com/xtreme1-io/xtreme1](https://github.com/xtreme1-io/xtreme1)[/issues](https://github.com/basicai/xtreme1/issues)
 
 Medium: [https://medium.com/multisensory-data-training](https://medium.com/multisensory-data-training)
@@ -87,4 +85,4 @@ Subscribe to the latest video tutorials on our [YouTube](https://www.youtube.com
 
 ## Learn more
 
-Please refer to Linux Foundation Trademark Usage page to learn about the usage policy and guidelines: [https://www.linuxfoundation.org/trademark-usage](https://www.linuxfoundation.org/trademark-usage).
+Please refer to the Linux Foundation Trademark Usage page to learn about the usage policy and guidelines: [https://www.linuxfoundation.org/trademark-usage](https://www.linuxfoundation.org/trademark-usage).
