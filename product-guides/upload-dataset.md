@@ -47,7 +47,7 @@ LiDAR dataset folder must be compressed and placed under the folder "**point\_cl
 
 <table data-header-hidden><thead><tr><th width="295"></th><th></th></tr></thead><tbody><tr><td>LiDAR data format requirement</td><td><p>Folder name: <strong>point_cloud</strong></p><p>File format: <strong>.pcd</strong></p><p>Upload file: compressed files <strong>(</strong>in <strong>.zip, .gzip, .tar</strong> format<strong>)</strong></p></td></tr></tbody></table>
 
-The LiDAR dataset sample can be downloaded from [_here_](https://app.box.com/s/quxqvns8vzhi2w0kt8iladg0nbqp8s1l).
+The LiDAR dataset sample can be downloaded from [_here_](https://basicai-asset.s3.amazonaws.com/docs/Open-source/LiDAR/LiDAR\_Basic\_with\_Scene.zip).
 
 > _This dataset is provided by_ [_PandaSet_](https://pandaset.org/) _- a high-quality open-source dataset for autonomous driving._
 
@@ -63,7 +63,7 @@ All the same set of data must be placed in different folders with identical file
 
 <figure><img src="../.gitbook/assets/fold-structure.png" alt=""><figcaption><p>Folder Structure Diagram</p></figcaption></figure>
 
-The 2D & 3D LiDAR Fusion dataset sample can be downloaded from [_here_](https://app.box.com/s/iuwytq16vakhiy6dlh3uxe4s65s03qu6).
+The 2D & 3D LiDAR Fusion dataset sample can be downloaded from [_here_](https://basicai-asset.s3.amazonaws.com/docs/Open-source/LiDAR/LiDAR\_Fusion\_with\_Scene.zip).
 
 <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>2D &#x26; 3D Fusion Dataset Example</p></figcaption></figure>
 
