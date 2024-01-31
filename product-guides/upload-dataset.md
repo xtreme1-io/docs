@@ -45,7 +45,7 @@ If you don’t see a supported data or file type that you want to upload, Join o
 
 LiDAR dataset folder must be compressed and placed under the folder "**point\_cloud**" and data must be in **.pcd** format.
 
-<table data-header-hidden><thead><tr><th width="295"></th><th></th></tr></thead><tbody><tr><td>LiDAR data format requirement</td><td><p>Folder name: <strong>point_cloud</strong></p><p>File format: <strong>.pcd</strong></p><p>Upload file: compressed files <strong>(</strong>in <strong>.zip, .gzip, .tar</strong> format<strong>)</strong></p></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="295"></th><th></th></tr></thead><tbody><tr><td>LiDAR data format requirement</td><td><p>Folder name: <strong>lidar_point_cloud_0</strong></p><p>File format: <strong>.pcd</strong></p><p>Upload file: compressed files <strong>(</strong>in <strong>.zip, .gzip, .tar</strong> format<strong>)</strong></p></td></tr></tbody></table>
 
 The LiDAR dataset sample can be downloaded from [_here_](https://basicai-asset.s3.amazonaws.com/docs/Open-source/LiDAR/LiDAR\_Basic\_with\_Scene.zip).
 
