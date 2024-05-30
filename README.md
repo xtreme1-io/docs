@@ -46,9 +46,9 @@ The built-in AI-assisted tools take your annotation efforts to the next level of
 
 You can install Xtreme1 on a Linux, Windows, or MacOSX machine.
 
-[**Prerequisites details and built-in models installation is explained here**](overview/what-we-do.md#prerequisites)**.**
+[**Prerequisites details and built-in models installation is explained here**](broken-reference)**.**
 
-Get started from the [**Quick Start**](overview/what-we-do.md):
+Get started from the [**Quick Start**](broken-reference):
 
 ```bash
 wget https://github.com/xtreme1-io/xtreme1/releases/download/v0.7.2/xtreme1-v0.7.2.zip
@@ -79,8 +79,8 @@ Subscribe to the latest video tutorials on our [YouTube](https://www.youtube.com
 
 ## Quick Links
 
-{% content-ref url="overview/what-we-do.md" %}
-[what-we-do.md](overview/what-we-do.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="product-guides/lidar-annotation-tool/" %}
