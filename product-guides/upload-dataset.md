@@ -33,7 +33,7 @@ Datasets can be uploaded from the `local drive` and through`URLs`.
 │   └── result
 ```
 
-The image dataset sample can be downloaded from [_here_](https://app.box.com/s/hskeiv45ie1q3l6wubte6vaphreh76z3).
+The image dataset sample can be downloaded from [_here_](https://github.com/xtreme1-io/asset/raw/main/datasets/xtreme1-image-trial.zip).
 
 > _This dataset is provided by_ [_PandaSet_](https://pandaset.org/) _- a high-quality open-source dataset for autonomous driving._
 
