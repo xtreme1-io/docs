@@ -29,6 +29,8 @@
 
 ## Changelog
 
+* [V 0.9](changelog/v-0.9.md)
+* [V 0.8](changelog/v-0.8.md)
 * [V 0.7](changelog/v-0.7.md)
 * [V 0.6.0](changelog/v-0.6.0.md)
 * [V 0.5.5](changelog/v-0.5.5.md)
